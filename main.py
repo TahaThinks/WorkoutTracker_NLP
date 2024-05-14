@@ -10,3 +10,6 @@ headers = {
     "x-remote-user-id": "0"
 }
 
+NLP_URL = "https://trackapi.nutritionix.com"
+NLP_ENDPOINT = "/v2/natural/exercise"
+
