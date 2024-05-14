@@ -13,3 +13,7 @@ headers = {
 NLP_URL = "https://trackapi.nutritionix.com"
 NLP_ENDPOINT = "/v2/natural/exercise"
 
+workout_text = {
+    "query": "I swam for 1 hour"
+}
+
