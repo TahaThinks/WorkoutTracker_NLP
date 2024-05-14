@@ -17,3 +17,5 @@ workout_text = {
     "query": "I swam for 1 hour"
 }
 
+response = requests.post(url=f"{NLP_URL}{NLP_ENDPOINT}", headers=headers, json=workout_text)
+print(response.text)
