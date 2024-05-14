@@ -1,5 +1,8 @@
 import api_data
 import requests
+import datetime
+
+current_day = datetime.datetime.now().strftime("%d/%m/%Y")
 
 APP_ID = api_data.NUTRITION_APPID
 APP_KEY = api_data.NUTRITION_APPKEY
